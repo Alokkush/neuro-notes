@@ -1,0 +1,299 @@
+/* Custom styles for Online Notes Sharing System */
+
+body {
+    background-color: #0a0a14;
+    color: #e0e0ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    border: 1px solid rgba(100, 100, 255, 0.1);
+    background: rgba(20, 20, 40, 0.7);
+    backdrop-filter: blur(10px);
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, #4e54c8, #8f94fb);
+    border: none;
+    box-shadow: 0 5px 15px rgba(78, 84, 200, 0.4);
+}
+
+.btn-primary:hover {
+    background: linear-gradient(45deg, #3a40b0, #7a80f0);
+    box-shadow: 0 8px 20px rgba(78, 84, 200, 0.6);
+}
+
+.btn-outline-primary {
+    border-color: #4e54c8;
+    color: #8f94fb;
+}
+
+.btn-outline-primary:hover {
+    background: linear-gradient(45deg, #4e54c8, #8f94fb);
+    border-color: #4e54c8;
+    box-shadow: 0 5px 15px rgba(78, 84, 200, 0.4);
+}
+
+.table th {
+    border-top: none;
+}
+
+.footer {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    border-top: 1px solid rgba(135, 206, 235, 0.2);
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+.note-card {
+    transition: transform 0.2s, box-shadow 0.2s;
+    background: rgba(30, 30, 60, 0.5);
+    border: 1px solid rgba(100, 100, 255, 0.1);
+}
+
+.note-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(64, 128, 255, 0.2);
+    border: 1px solid rgba(64, 128, 255, 0.3);
+}
+
+.file-icon {
+    font-size: 2rem;
+    color: #8f94fb;
+}
+
+.feature-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    border: 1px solid rgba(100, 100, 255, 0.1);
+    background: rgba(20, 20, 40, 0.7);
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(64, 128, 255, 0.2);
+    border: 1px solid rgba(64, 128, 255, 0.3);
+}
+
+.stat-card {
+    background: rgba(30, 30, 60, 0.5);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(100, 100, 255, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.stat-card:hover {
+    transform: scale(1.05);
+    border: 1px solid rgba(64, 128, 255, 0.3);
+}
+
+.navbar {
+    backdrop-filter: blur(10px);
+    background: rgba(10, 10, 20, 0.8) !important;
+}
+
+.form-control {
+    background: rgba(30, 30, 60, 0.5);
+    border: 1px solid rgba(100, 100, 255, 0.2);
+    color: #e0e0ff;
+}
+
+.form-control:focus {
+    background: rgba(30, 30, 60, 0.7);
+    border-color: #4e54c8;
+    box-shadow: 0 0 0 0.25rem rgba(78, 84, 200, 0.25);
+    color: #e0e0ff;
+}
+
+.form-control::placeholder {
+    color: #a0a0c0;
+}
+
+.alert {
+    background: rgba(30, 30, 60, 0.7);
+    border: 1px solid rgba(100, 100, 255, 0.2);
+    color: #e0e0ff;
+    backdrop-filter: blur(5px);
+}
+
+/* Sky Blue color definitions */
+.text-sky-blue {
+    color: #87CEEB !important;
+}
+
+.bg-sky-blue {
+    background-color: #87CEEB !important;
+}
+
+.border-sky-blue {
+    border-color: #87CEEB !important;
+}
+
+.border-sky-blue {
+    border-width: 2px !important;
+}
+
+.table-sky-blue th {
+    background-color: #87CEEB !important;
+    color: #0a0a14 !important;
+}
+
+.btn-sky-blue {
+    background-color: #87CEEB;
+    border-color: #87CEEB;
+    color: #0a0a14;
+}
+
+.btn-sky-blue:hover {
+    background-color: #5fa8d3;
+    border-color: #5fa8d3;
+    box-shadow: 0 5px 15px rgba(135, 206, 235, 0.4);
+}
+
+/* Footer specific styles */
+.footer h5 {
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.footer h5::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background: linear-gradient(90deg, #87CEEB, transparent);
+    border-radius: 3px;
+}
+
+.footer a:hover {
+    color: #87CEEB !important;
+    transition: color 0.3s ease;
+}
+
+.footer hr {
+    background: linear-gradient(90deg, transparent, #87CEEB, transparent);
+    height: 1px;
+    border: none;
+    opacity: 0.3;
+}
+
+/* Table styling */
+.table {
+    color: #ffffff;
+    background-color: rgba(20, 20, 40, 0.7);
+    font-weight: 500;
+}
+
+.table th {
+    border-top: none;
+    font-weight: 700;
+    color: #0a0a14;
+    background-color: #87CEEB;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 0.9rem;
+}
+
+.table td {
+    color: #ffffff;
+    border-top: 1px solid rgba(135, 206, 235, 0.3);
+    padding: 12px 8px;
+    font-weight: 500;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.9);
+    background-color: rgba(30, 30, 50, 0.95);
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: rgba(40, 40, 70, 0.95);
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) td {
+    background-color: rgba(40, 40, 70, 0.95);
+    color: #ffffff;
+}
+
+.table-striped > tbody > tr:nth-of-type(even) {
+    background-color: rgba(30, 30, 50, 0.95);
+}
+
+.table-striped > tbody > tr:nth-of-type(even) td {
+    background-color: rgba(30, 30, 50, 0.95);
+    color: #ffffff;
+}
+
+.table-hover > tbody > tr:hover {
+    background-color: rgba(135, 206, 235, 0.7);
+}
+
+.table-hover > tbody > tr:hover td {
+    background-color: rgba(135, 206, 235, 0.8);
+    color: #ffffff;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.9);
+}
+
+.table-sky-blue th {
+    background-color: #87CEEB !important;
+    color: #0a0a14 !important;
+}
+
+/* Additional table content styling */
+.table a {
+    color: #87CEEB;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 3px 6px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+.table a:hover {
+    color: #ffffff;
+    background-color: #87CEEB;
+    text-decoration: none;
+}
+
+.table .btn {
+    margin: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    font-weight: 600;
+    padding: 5px 10px;
+    border: none;
+}
+
+.table .btn-success {
+    background-color: #28a745;
+}
+
+.table .btn-success:hover {
+    background-color: #218838;
+}
+
+.table .btn-primary {
+    background-color: #007bff;
+}
+
+.table .btn-primary:hover {
+    background-color: #0069d9;
+}
+
+.table .btn-danger {
+    background-color: #dc3545;
+}
+
+.table .btn-danger:hover {
+    background-color: #c82333;
+}
+
+.table-responsive {
+    border: 1px solid rgba(135, 206, 235, 0.3);
+    border-radius: 8px;
+    padding: 8px;
+    background-color: rgba(20, 20, 40, 0.5);
+}
